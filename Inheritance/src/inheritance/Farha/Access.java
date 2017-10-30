@@ -16,5 +16,13 @@ class D extends C{
 	
 }
 public class Access {
-
+ 
+	public static void main(String args[]){
+	 D subOb = new D();
+	 subOb.setab(10 , 20);
+	 
+	 subOb.sum();
+	 System.out.println("Total is :" + subOb.total);
+   
+	}
 }
