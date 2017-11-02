@@ -18,5 +18,12 @@ class F extends E {
 }
 public class UseSuper {
 
+public static void main(String args[]) {     
+		
+		F subOb = new F(1, 2);  
+	  
+		subOb.show();  
+    
+    }	
 	
-}
+ }
