@@ -9,7 +9,13 @@ abstract class A3 {
    }
 }  
 
+class B3 extends A3 {  
+     
+	void callme() {   
+           System.out.println("B's implementation of callme."); 
 
+    }
+}  
 public class AbstractDemo {
 
 }
