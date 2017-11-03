@@ -20,10 +20,24 @@ class Rectangle1 extends Figure1{
 
      }  
     double area() {    
-    System.out.println("Inside Area for Rectangle.");    
+    System.out.println("Inside Area for Rectangle1.");    
      return dim1 * dim2;  
      
     }
+
+}  
+
+class Triangle1 extends Figure1 {   
+    Triangle1(double a, double b) {    
+         super(a, b);  
+         
+    }  
+          
+    double area() {    
+     System.out.println("Inside Area for Triangle1.");    
+       return dim1 * dim2 / 2;  
+       
+    } 
 
 }  
 public class AbstractAreas {
