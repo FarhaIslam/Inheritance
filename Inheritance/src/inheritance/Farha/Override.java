@@ -16,6 +16,22 @@ class A1 {
            } 
     } 
   
+class B1 extends A1 {   
+    
+    int k;  
+    B1(int a, int b, int c) {     
+        
+         super(a, b);    
+         k = c;  
+
+    }  
+
+   void show() {     
+   
+	   System.out.println("k: " + k);  
+    
+   }
+}  
 public class Override {
 
 }
