@@ -18,4 +18,10 @@ class B3 extends A3 {
 }  
 public class AbstractDemo {
 
+    public static void main(String args[]) {     
+       
+    	 B3 b = new B3();  
+         b.callme();    
+         b.callmetoo();
+ } 
 }
